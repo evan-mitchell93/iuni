@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#vapp {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
