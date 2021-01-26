@@ -1,16 +1,7 @@
-.container{
-    display: flex;
-    flex-direction: row;
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
 }
 
-.col-1 {
-    display: flex;
-    flex-direction: column;
-}
-
-#vapp {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-}
 

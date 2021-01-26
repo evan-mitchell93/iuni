@@ -13,8 +13,10 @@ def home():
 
 @app.route('/get_time', methods=['GET'])
 def getTime():
+   #set tz to the timezone sent in the request 
    tz = request.args.get('tz', '')
-   print(tz)
+
+   #set time to 12 hour format and set access controll 
    response = jsonify(datetime.now(pytz.timezone(tz)).strftime("%I:%M %p"))
    response.headers.add("Access-Control-Allow-Origin", "*")
    return response
