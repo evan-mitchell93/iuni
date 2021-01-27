@@ -4,14 +4,12 @@ Installation/ Running
 
     run python3 main.py to start the application
 
-    in the browser go to https//127.0.0.1:5000 to view the application
-
 
 Usage
+    in the browser go to https//127.0.0.1:5000 to view the application  
 
     use the dropdown box to select one of the timezones
 
     click the submit button to get the current time in the selected timezone
 
-    
 
